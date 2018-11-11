@@ -1,8 +1,5 @@
 <?php
 
-/**
- *
- */
 abstract class Shape
 {
 
@@ -23,6 +20,7 @@ abstract class Shape
 
 class Square extends Shape
 {
+  
   protected $length = 4;
 
   public function getArea()
@@ -34,6 +32,7 @@ class Square extends Shape
 
 class Triangule extends Shape
 {
+
   protected $base = 4;
   protected $height = 7;
 
