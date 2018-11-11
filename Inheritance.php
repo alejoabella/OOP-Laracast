@@ -44,4 +44,4 @@ class Triangule extends Shape
 
 }
 
-echo (new Square('green'))->getColor();
+(new Square('green'))->getArea();
