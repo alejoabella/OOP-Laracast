@@ -11,7 +11,9 @@ abstract class Shape
   }
 
   public function getColor()
+  {
     return $this->color;
+  }
 
   abstract protected function getArea();
 }
