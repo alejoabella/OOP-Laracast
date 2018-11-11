@@ -11,16 +11,14 @@ abstract class Shape
   }
 
   public function getColor()
-  {
     return $this->color;
-  }
 
   abstract protected function getArea();
 }
 
 class Square extends Shape
 {
-  
+
   protected $length = 4;
 
   public function getArea()
